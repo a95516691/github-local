@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size:1em;
+    line-height:2em;
+    background-color: #68cdd5;
+}
+.t1 img{
+    float: left;
+    width: 3em;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.t2{
+    text-align: center;
+    padding-top: 6em;
+    padding-bottom: 4em;
+}
+.text{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.text1{
+    text-align: left;
+    margin: 0 auto;
+}
+.a3 img{
+    width: 55px;
+}
+.t3{
+    float: left;
+    margin-left: 15%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.t4 {
+    float: right;
+    margin-right: 15%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+
+
+
