@@ -1,0 +1,82 @@
+/*设置背景颜色*/
+body{
+	background-color: #eff0f4;
+}
+/*设置头部样式*/
+.top{
+	height:100px;/*头部高度*/
+	background-color:#5fc0cd;/*头部背景色*/
+	text-align:center;/*行内元素水平居中*/
+	line-height: 100px;
+}
+/*设置 头部（字的样式）*/
+.top a{
+	color: #fff;
+	font-size: 30px;/*字体大小*/
+	text-decoration:none;
+}
+/*设置关闭字的位置*/
+.close{
+	float: left;
+	margin-left: 30px;
+}
+/*设置注册字的位置*/
+.login{
+	float: right;
+	 margin-right: 30px;
+}
+/*设置input控件*/
+.img1{
+	height: 100px;
+	background: #fff;/*输入框背景色*/
+	margin:16px 0;/*外边距16像素*/
+}
+/*竖杠*/
+.shu{
+	width: 2px;
+	height: 55px;
+	background:#bababa;
+	float:left;
+	margin: 25px 35px;
+}
+/*图标*/
+.shouji{
+	float:left;
+	width: 30px;
+	height: 40px;
+	margin: 30px 45px;
+}
+/*输入框设置*/
+.img1 input{
+	font-size:40px;
+	margin: 25px auto;/*盒子居中*/
+	border:none;/*去掉控件边框*/
+}
+/*尾部登录样式*/
+.tijiao{
+	height:100px;
+	background:#5fc0cd;
+	margin-top: 70px;
+	text-align:center;/*水平居中*/
+	line-height:100px;/*垂直居中*/
+}
+/*登录字体样式*/
+.tijiao a{
+	text-decoration:none;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+/*设置忘记密码*/
+#forget{
+	float:right;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+.forget{
+	text-decoration:none;
+	text-align: center;
+	color: #5fc0cd;
+	font-size: 30px;
+
+}
