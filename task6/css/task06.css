@@ -1,0 +1,235 @@
+
+/*头部开始*/
+/*任务要求
+头部紧贴顶部
+给头部添加居中按钮，图标添加按钮*/
+header{
+    height: 100px;
+    width: 100%;
+    background-color:#5fc0cd;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+header .tab{
+    height: 70px;
+    width: 286px;
+    position: absolute;
+    left: 50%;
+    margin-left:-143px;
+    top: 50%;
+    margin-top: -25px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+header button{
+    font-size: 34px;
+    display:inline-block;
+    /*去掉按钮边框*/
+    border:none;
+
+}
+header div .tab_one{
+    color: white;
+    margin:0 14px;
+    text-decoration:none;
+    background-color: transparent;/*按钮背景透明*/
+
+}
+header div .tab_two{
+    color: #5fc0cd;
+    background: white;
+    width: 140px;
+    height: 70px;
+    border-radius: 10px;
+    line-height: 70px;
+    text-align:center;
+    text-decoration:none;
+}
+header .map{
+    background: url(../images/sprites.png) no-repeat  -18px -20px;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    margin-top: -22px;
+}
+/*头部完成*/
+/*列表头开始*/
+/*任务要求列举表头紧贴头部
+列表头分三列模拟三个下拉框
+*/
+nav{
+    margin-top: 100px;
+}
+li{
+    list-style-type:none;
+}
+nav .row {
+    margin: 0;
+    padding: 0;
+
+}
+span{
+    display:inline-block;
+    font-size: 28px;
+    margin-left: 0.3rem;
+    color: #999;
+
+}
+ .nav_class{
+    font-size:28px;
+    line-height: 80px;
+    text-align:center;
+    position: relative;
+}
+.nav_eat{
+
+    border-left:1px solid #e1e5e7;
+    border-right:1px solid #e1e5e7;
+}
+.nav_class span{
+    display:inline-block;
+    background: url(../images/sprites.png) no-repeat  -10px -154px;
+    width: 13px;
+    height: 11px;
+    float: right;
+    margin-top: 37px;
+}
+nav a {
+    color: #999;
+    text-decoration:none;
+}
+.class_one{
+    display:none;
+}
+ul li:hover .class_one{
+    display:block;
+}
+/*列表开始*/
+/*任务要求
+布局列表主体部分，高度始终在列表头和footer之间，超出部分自动出现滚动条
+制作列表主体，注意垂直居中，如果屏幕过窄时，设置左边的文字被截断出现”…”省略号*/
+
+.list{
+    margin-bottom: 100px;
+}
+/*li div span{
+;
+}*/
+.list-group-item{
+    display: flex;
+}
+.list_left{
+    flex: 2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*（三个步骤）如果屏幕过窄时，设置左边的文字被截断出现”…”省略号*/
+}
+.list_right{
+    flex: 1;
+
+}
+.date_chart{
+    height: 25px;
+    width: 25px;
+    background: url(../images/sprites.png) no-repeat  -187px -20px;
+}
+.time{
+    margin-left: 2rem;
+    color: #333;
+}
+.location_chart{
+    height: 22px;
+    width: 21px;
+    background: url(../images/sprites.png) no-repeat  -186px -64px;
+}
+.list_hour{
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    margin-top: -24px;
+    color: #e63b0e;
+}
+.list_mark{
+    height: 33px;
+    width: 19px;
+    background: url(../images/sprites.png) no-repeat  -147px -19px;
+    position: absolute;
+    top: 50%;
+    right: 9px;
+    margin-top: -16.5px;
+}
+/*列表完成*/
+/*底部开始*/
+/*任务要求
+让footer紧贴底部
+给footer添加3个按钮
+*/
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #f8fafb;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+}
+footer button{
+    border:none;
+}
+
+footer div{
+    flex: 1;
+    position: relative;
+}
+.home_chart{
+    background: url(../images/sprites.png) no-repeat  -82px -19px;
+    width: 46px;
+    height: 41px;
+    position: absolute;
+    right: 0;
+    top: 22px;
+}
+.home_write{
+    font-size: 20px;
+    color: #5fc0cd;
+    position: absolute;
+    right: 2px;
+    bottom: 5px;
+
+}
+.write div{
+    width: 95px;
+    height: 95px;
+    background-color: #5fc0cd;
+    border-radius:50%;
+    margin:0 auto;
+}
+div .write_chart{
+    background: url(../images/sprites.png) no-repeat  -82px -85px;
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    top: 50%;
+    margin-top: -20px;
+}
+.my_chart{
+    background: url(../images/sprites.png) no-repeat  -20px -84px;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    left: 0;
+    top: 22px;
+}
+.my_write{
+    font-size: 20px;
+    color: #999;
+    position: absolute;
+    left: 2px;
+    bottom: 5px;
+}
